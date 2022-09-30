@@ -1,0 +1,324 @@
+
+
+
+.myday-header{
+    margin-top: 30px;
+    height: 50px;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px 5px 0 0;
+}
+
+.stories,
+.reels,
+.groups{
+    border-radius: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(96, 98, 102);
+    font-weight: normal;
+    height: 50px;
+    width: 80px;
+    background-color: rgb(255, 255, 255);
+}
+
+.stories:hover,
+.reels:hover,
+.groups:hover{
+    background-color: rgb(242, 242, 242);
+    border-bottom: 4px solid; color:rgb(27, 116, 228);
+}
+.myday-pic{
+    margin-top: 8px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 12px;
+    padding-bottom: 10px;
+}
+.create-story{
+    
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.story-pic{
+    border-radius: 5px 5px 0 0;
+    height: 100px;
+    width: 110px;
+    
+}
+.create-story-text{
+    padding-top: 5px;
+    font-size: 12px;
+    width: 110px;
+    height: 50px;
+    background-color: rgb(250, 250, 250);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0 0 5px 5px;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.3);
+    
+}
+.plus-icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 35px;
+    left: 34px;
+    color: white;
+    width: 30px;
+    height: 30px;
+    background-color: rgb(22, 106, 218);
+    border: 5px solid; border-color: white;
+    border-radius: 100%;
+    font-size: 20px;
+    font-weight: normal;
+    
+    
+}
+.other-pic{
+    display: flex;
+    flex-direction: column;
+}
+.myday-content{
+   
+    display: flex;
+    width: 390px;
+    background-color: rgb(255, 255, 255);
+    align-items: center;
+    justify-content: start;
+    border-radius: 0 0 5px 5px;
+    flex-direction: row; 
+    padding-left: 10px;
+}
+.other-myday-pic{
+    position: relative;
+}
+.myday-profile{
+    position: absolute;
+    top: 10px;
+    left: 20px;
+}
+.other-pic{
+    
+    width: 110px;
+    height: 155px;
+    margin-left: 10px;
+    border-radius: 5px;
+}
+.profile-myday{
+    width: 30px;
+    border-radius: 100%;
+    border: 5px solid; border-color: rgb(22, 106, 218);
+}
+.online{
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  background-color: rgb(44, 146, 68);
+  top: 26px;
+  left: 25px;
+  border-radius: 100%;
+  border: 2px solid; border-color: white;
+    
+}
+
+.post-header{
+    display: flex;
+    width: 400px;
+    background-color: white;
+    margin-top: 10px;
+    border-radius: 5px 5px 0 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+   
+    
+}
+.profile-pic{
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+}
+.profile-pic-container{
+    display: flex;
+    
+    
+}
+.input-post{
+    width: 300px;
+    height: 30px;
+    background-color: rgb(240, 242, 245);
+    border: none;
+    border-radius: 20px;
+    padding-left: 10px;
+   
+    
+}
+.underline{
+    display: flex;
+    justify-content: start;
+    color: gray;
+    font-size: 5px;
+    width: 300px;
+}
+.post-footer{
+    display: flex;
+    height: 40px;
+    width: 400px;
+    border-radius: 0 0 5px 5px;
+    justify-content: start;
+    background-color: rgb(255, 255, 255);
+    
+}
+.live-icon,
+.photo-icon,
+.video-icon{
+    width: 20px;
+}
+.live-video,
+.photo-video,
+.video-act{
+     display: flex;
+    align-items: center;
+    font-size: 13px;
+    color: rgb(96, 98, 102);
+    margin-right: 15px;
+    padding-left: 20px;
+    padding-top: -100px;
+}
+.post-content-container{
+   
+}
+.post-header-post{
+    display: flex;
+    width: 400px;
+   border-radius: 5px;
+   background-color: white;
+   margin-top: 10px;
+   
+   position: relative;
+}
+
+.post-profile-pic{
+    display: flex;
+    margin-top: 10px;
+    
+}
+.name-container{
+    display: flex;
+    justify-content: space-between;
+    
+    margin-bottom: 0;
+    margin-top: 10px;
+}
+.name{
+    font-size: 13px;
+}
+.fav{
+    font-size: 13px;
+    color: gray;
+}
+.stat-container{
+   display: flex;
+  
+   align-items: center;
+   margin-top: 0;
+
+}
+.star{
+    width: 12px;
+    height: 12px;
+    margin-right: 5px;
+   
+}
+.all{
+    display: flex;
+    flex-direction: column;
+}
+.eart{
+    width: 12px;
+    height: 12px;
+    margin-left: 5px;
+}
+.dot{
+    position: absolute;
+    right: 30px;
+    top: 10px;
+}
+.content-post-container{
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+}
+.caption-container{
+    display: flex;
+    width: 400px;
+    background-color: white;
+}
+.caption{
+    font-size: 12px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.cap-pic{
+    width: 400px;
+}
+.like-icon,
+.comment-icon,
+.share-icon{
+    width: 20px;
+}
+.like,
+.comment,
+.share{
+    display: flex;
+    flex-direction: row;
+    margin-left: 50px;
+    
+}
+.react-container{
+    display: flex;
+    
+}
+.emoji-container{
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+.emojis{
+    
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    
+}
+.emoji-icon{
+    width: 15px;
+    height: 15px;
+    
+}
+.react-name{
+    margin-left: 5px;
+    font-size: 12px;
+    font-weight: normal;
+}
+hr{
+    width: 380px;
+    color: rgb(206, 208, 212);
+}
+@media (min-width: 320px) and (max-width: 999px){
+    .middle-content-container{
+      display: grid;
+      grid-template-columns: auto;
+      justify-content: center;
+      align-items: center;
+    }
+}

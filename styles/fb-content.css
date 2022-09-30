@@ -1,0 +1,42 @@
+body {
+    font-family: Roboto, Arial;
+    background-color: rgb(240, 242, 245);
+    height: 1000px;
+    font-weight: 500;
+
+}
+
+
+.left-container {
+    margin-left: -8px;
+    margin-bottom: 55px;
+    width: 300px;
+    background-color: rgb(240, 242, 245)
+}
+
+.left-content-container {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    font-size: 14px;
+
+
+}
+
+.middle-content-container {
+    display: flex;
+    justify-content: center;
+    
+    flex: 1;
+    height: 250px;
+    background-color: rgb(240, 242, 245)
+}
+
+.right-container {
+    display: flex;
+    margin-right: -8px;
+    width: 300px;
+    background-color: rgb(240, 242, 245)
+}
+

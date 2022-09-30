@@ -1,0 +1,172 @@
+body{
+    font-family: Roboto;
+    background-color: rgb(240, 242, 245);
+}
+.container{
+    display: flex;
+    
+    
+ }
+ .facebook-container{
+    display: flex;
+    flex-direction: column;
+    margin-left: 125px;
+    margin-top: 160px;
+   
+    
+
+ }
+ .logo{
+    width: 270px;
+    
+}
+.connect{
+    width: 450px;
+    margin-left: 30px;
+    font-size: 25px;
+}
+.login-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 350px;
+    background-color: white;
+    margin-left: 100px;
+    margin-top: 110px;
+    padding-top: 8px;
+    
+    border-radius: 10px;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.3);
+    position: relative;
+    
+}
+.email-add{
+    width: 300px;
+    height: 45px;
+    border: solid;
+    border-width: 1px;
+    border-color: rgb(221, 223, 226);
+    margin-top: 10px;
+    border-radius: 5px;
+    padding-left: 10px;
+    font-size: 15px;
+    margin-bottom: 3px;
+ }
+ .login-btn{
+    background-color: rgb(24, 119, 242);
+    margin-top:10px;
+    color: white;
+    width: 312px;
+    font-size: 20px;
+    font-weight: bold;
+    height: 45px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+ }
+ .login-btn:hover{
+    background-color: rgb(6, 109, 245);
+ }
+ .forgot-pw{
+    font-size: 13px;
+    font-family:inherit;
+    color: rgb(24, 119, 242);
+    margin-top:20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+ }
+ .underline{
+    text-decoration: line-through;
+ }
+ .line{
+    width: 50px;
+    border-bottom: 1px solid; color: rgb(221, 223, 226);
+    margin-bottom: 20px;
+    width: 312px;
+    
+ }
+ .create-acc{
+    background-color: rgb(66, 183, 42);
+    width: 200px;
+    height: 45px;
+    color: white;
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    cursor: pointer;
+ }
+ .create-acc:hover{
+    background-color: rgb(56, 156, 35);
+ }  
+ .create-page{
+    display: flex;
+    position: absolute;
+    bottom: -40px;
+    
+ }
+ .create-page{
+    font-family: inherit;
+    font-size: 13px;
+ }
+ 
+ span{
+    font-family: inherit;
+    font-size: 13px;
+    margin-right: 4px;
+    font-weight: bold;
+ }
+ span:hover{
+    text-decoration: underline;
+    cursor: pointer;
+ }
+ .for-pw{
+    position: relative;
+ }
+ .forgot-pw:hover{
+    text-decoration: underline;
+ }
+ .show-pw{
+    width: 30px;
+    height: 30px;
+     position: absolute;
+    bottom: 10px;
+    right: 10px;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 100%;
+    cursor: pointer;
+ }
+ .show-pw:hover{
+    background-color: rgb(224, 224, 224);
+ }
+ input:focus {
+	outline: none;
+  	border: 1px solid rgb(24, 119, 242);
+}
+
+
+
+@media (min-width: 320px) and (max-width: 999px){
+   .container{
+     display: grid;
+     grid-template-columns: auto;
+     justify-content: center;
+     align-items: center;
+   }
+   .connect{
+      width: 300px;
+      display: grid;
+     grid-template-columns: auto;
+     justify-content: center;
+     align-items: center;
+   }
+
+   
+ }
+
+
+
+   

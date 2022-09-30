@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Facebook CLone</title>
+    
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <script>
+        function myFunction() {
+    var x = document.getElementById("myInput");
+    if (x.type === "password") {
+      x.type = "text";
+    } else {
+      x.type = "password";
+    }
+  }
+    </script>
+</head>
+<body>
+    <div class="container">
+        <div class="facebook-container">
+            <div class="logo">
+                <img src="images/fb-logo.svg" alt="">
+            </div>
+            <div class="connect">
+                Connect with your friends and the world around
+                you on Facebook.
+            </div>
+
+        </div>
+
+        <div class="login-container">
+            <input class="email-add" type="text" name="" id="" placeholder="Email or Phone Number">
+            <div class="for-pw">
+                <input  id="myInput"  class="email-add" type="password" name="" id="" placeholder="Password">
+                <button onclick="myFunction()" class="show-pw">
+                    <img src="images/eyes.png" alt="">
+                </button>
+                
+            </div>
+                <a href="fb-content.html">
+                    <button  class="login-btn">  Log In</button>
+                </a>
+              <div class="forgot-pw">Forgot Password?</div>
+              <div class="line"></div>
+              <button class="create-acc">Create new account</button>
+              <div class="create-page"><span>Create a Page </span> for a 
+              celebrity, brand or business</div>
+            </div>
+            
+            
+           
+        </div>
+        
+    </div>
+    
+</body>
+</html>
+
